@@ -11,8 +11,16 @@ abstract class CuentaUsuario {
         this.mesesActivo = mesesActivo;
         this.planSuscripcion = planSuscripcion;
     }
-
+    //Metodo
     public double obtenerTotalAPagar() {
         return planSuscripcion.calcularCosto(mesesActivo);
+    }
+    //Getters
+    public String getCorreoElectronico() {
+        return correoElectronico;
+    }
+
+    public int getMesesActivo() {
+        return mesesActivo;
     }
 }
