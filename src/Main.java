@@ -7,6 +7,7 @@ void main() {
         System.out.println("Elije la opcion que desas realizar");
         System.out.println("1. Registrar");
         System.out.println("2. Reporte");
+        System.out.println("3. Salir");
         try{
             opcion = Leer.nextInt();
         } catch (Exception e){
@@ -21,5 +22,5 @@ void main() {
                 int mesesActivo = Leer.nextInt();
                 Leer.nextLine();
         }
-    } while (opcion != 0);
+    } while (opcion != 3);
 }
