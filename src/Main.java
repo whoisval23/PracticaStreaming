@@ -1,5 +1,5 @@
 
 void main() {
-    Scanner Leer = new Scanner(System.in)
+    Scanner Leer = new Scanner(System.in);
 
 }
