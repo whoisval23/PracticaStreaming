@@ -21,6 +21,7 @@ void main() {
                 System.out.println("Ingrese la cantidad de meses : ");
                 int mesesActivo = Leer.nextInt();
                 Leer.nextLine();
+                System.out.println("Aqui termine de hacer un menu uwu");
         }
     } while (opcion != 3);
 }
