@@ -22,6 +22,7 @@ void main() {
                 int mesesActivo = Leer.nextInt();
                 Leer.nextLine();
                 System.out.println("Aqui termine de hacer un menu uwu");
+                System.out.println("Ya jala");
         }
     } while (opcion != 3);
 }
