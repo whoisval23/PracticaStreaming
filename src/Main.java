@@ -58,6 +58,15 @@ public static void main(String[] args)
 
                         break;
 
+                    case 3:
+
+                        System.out.println("Gracias por utilizar la plataforma.");
+
+                        break;
+                    default:
+
+                        System.out.println("Opción inválida.");
+
 
                 }
             } catch (Exception e) {
