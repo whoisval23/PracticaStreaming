@@ -1,6 +1,7 @@
 import java.util.Scanner;
-void main() {
+public static void main(String[] args) {{
     Scanner Leer = new Scanner(System.in);
+    PlataformaStreaming plataforma = new PlataformaStreaming();
     int opcion = 0;
     do {
         System.out.println("--- Plan de Streaming ---");
