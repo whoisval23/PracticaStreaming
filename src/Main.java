@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public static void main(String[] args)
+ void main()
     {
         Scanner Leer = new Scanner(System.in);
         PlataformaStreaming plataforma = new PlataformaStreaming();
