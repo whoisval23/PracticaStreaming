@@ -23,4 +23,16 @@ abstract class CuentaUsuario {
     public int getMesesActivo() {
         return mesesActivo;
     }
+
+    public void setCorreoElectronico(String correoElectronico) {
+        this.correoElectronico = correoElectronico;
+    }
+
+    public void setMesesActivo(int mesesActivo) {
+        this.mesesActivo = mesesActivo;
+    }
+
+    public void setPlanSuscripcion(PlanSuscripcion planSuscripcion) {
+        this.planSuscripcion = planSuscripcion;
+    }
 }
