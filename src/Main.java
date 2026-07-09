@@ -21,9 +21,18 @@ import java.util.Scanner;
                         System.out.println("Ingrese la cantidad de meses : ");
                         int mesesActivo = Leer.nextInt();
                         Leer.nextLine();
+                        System.out.println("\nSeleccione el plan:");
+                        System.out.println("1. Plan Básico");
+                        System.out.println("2. Plan Estándar");
+                        System.out.println("3. Plan Premium");
+                        System.out.print("Opción: ");
+
+                        int opcionPlan = Leer.nextInt();
+                        Leer.nextLine();
+
                         PlanSuscripcion plan = null;
 
-                        switch (opcion) {
+                        switch (opcionPlan) {
                             case 1:
                                 plan = new PlanBasico();
                                 break;
