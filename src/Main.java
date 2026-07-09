@@ -6,7 +6,7 @@ public static void main(String[] args)
         int opcion = 0;
         do {
             System.out.println("--- Plan de Streaming ---");
-            System.out.println("Elije la opcion que deseas realizar");
+            System.out.println("Elije la opcion que deseas realizar:");
             System.out.println("1. Registrar usuario");
             System.out.println("2. Mostrar reporte");
             System.out.println("3. Salir");
