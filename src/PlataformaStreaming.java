@@ -14,6 +14,7 @@ public class PlataformaStreaming {
             System.out.println("Meses activo : " + cuentaUsuario.getMesesActivo());
             System.out.println("Costo : " + Costo);
             Total += Costo;
+            System.out.println("-------------------------------------");
         }
         System.out.println("Dinero total recaudado por la plataforma: $" + Total);
     }
