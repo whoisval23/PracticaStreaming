@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 void main() {
     Scanner Leer = new Scanner(System.in);
     int opcion = 0;
