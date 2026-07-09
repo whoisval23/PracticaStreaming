@@ -2,7 +2,7 @@ abstract class CuentaUsuario {
 
     private String correoElectronico;
     private int mesesActivo;
-    PlanSuscripcion planSuscripcion;
+  private PlanSuscripcion planSuscripcion;
 
     // Constructor
 
