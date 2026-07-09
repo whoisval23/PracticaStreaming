@@ -6,9 +6,10 @@ public static void main(String[] args) {{
     do {
         System.out.println("--- Plan de Streaming ---");
         System.out.println("Elije la opcion que desas realizar");
-        System.out.println("1. Registrar");
-        System.out.println("2. Reporte");
+        System.out.println("1. Registrar usuario");
+        System.out.println("2. Mostrar reporte");
         System.out.println("3. Salir");
+        System.out.print("Seleccione una opción: ");
         try{
             opcion = Leer.nextInt();
         } catch (Exception e){
