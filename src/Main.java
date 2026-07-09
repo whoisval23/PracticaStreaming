@@ -17,7 +17,7 @@ public static void main(String[] args)
                 switch (opcion) {
                     case 1:
                         System.out.println("Ingrese su Correo Electronico : ");
-                        String correo = Leer.nextLine();
+                        String correo = Leer.next();
                         System.out.println("Ingrese la cantidad de meses : ");
                         int mesesActivo = Leer.nextInt();
                         Leer.nextLine();
