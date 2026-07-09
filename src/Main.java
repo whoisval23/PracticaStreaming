@@ -52,6 +52,13 @@ public static void main(String[] args)
 
                         break;
 
+                    case 2:
+
+                        plataforma.imprimirCuenta();
+
+                        break;
+
+
                 }
             } catch (Exception e) {
                 System.out.println("Ingrese una opcion valida");
